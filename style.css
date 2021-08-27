@@ -1,9 +1,10 @@
 body{
-     background: #012042;
+     background-color: #121f3d !important;
 }
 .home{
      display: flex;
      line-height: 2.5;
+     background: #012042;
 }
 .header{
      background: #121f3d;
@@ -58,14 +59,14 @@ body{
      
    }
    .Menu-content-menu li a {
-     color: white;
+     color: #eff3f8;
      display: block;
      text-decoration: none;
      padding: .1em 1em;
    }
    .Menu-content-menu li a:hover {
      background: tomato;
-     color: white;
+     color: #eff3f8;
    }
 .menuDropDown{
      grid-column: 2; 
@@ -79,7 +80,7 @@ nav {
    }
    
    span {
-     color : white;
+     color : #eff3f8;
      cursor : pointer;
      display: block;
      font-family: Verdana, Geneva, sans-serif;
@@ -95,7 +96,7 @@ nav {
      grid-row: 1;
 }
    .bel >.fa{
-        color: white;
+        color: #eff3f8;
    }
    span::after {
      margin-left: 3px;
@@ -128,7 +129,7 @@ nav {
 .form-container-input {
     background: #03091e;
     border: 1px solid #03091e;
-    color: #fff;
+    color: #eff3f8;
     font-size: 12px;
     outline: none;
     border-radius: 5px 0 0 5px;
@@ -140,7 +141,7 @@ background-image: linear-gradient(87deg ,#95ca3e,#85c638);
 border: 1px solid #95ca3e;
 border-radius: 0 5px 5px 0;
 height: 30px;
-
+width: 50px;
 line-height: 1;}
    .slide {
      clear:both;
